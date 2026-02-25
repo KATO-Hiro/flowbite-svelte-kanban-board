@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import KanbanBoard from 'flowbite-svelte/KanbanBoard.svelte';
+	import KanbanBoard from '$lib/KanbanBoard.svelte';
 	import type { KanbanColumnType, KanbanCardType } from 'flowbite-svelte/types';
 
 	const STORAGE_KEY = 'kanban-columns';
